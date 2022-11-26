@@ -1,0 +1,205 @@
+﻿Class,Chapter,Problems,Incorrect,Percent
+Prealgebra,Arithmetic - Addition,12,1,91.7
+Prealgebra,Arithmetic - Multiplication,12,0,100
+Prealgebra,Arithmetic - Negatives,12,0,100
+Prealgebra,Arithmetic - Subtraction,18,1,94.4
+Prealgebra,Arithmetic - Reciprocals,12,0,100
+Prealgebra,Arithmetic - Division,11,0,100
+Prealgebra,Squares,11,0,100
+Prealgebra,General Positive Exponents,15,1,93.3
+Prealgebra,Order of Operations,12,0,100
+Prealgebra,Negative and Zero Exponents,12,0,100
+Prealgebra,Multiples,10,0,100
+Prealgebra,Divisibility,16,0,100
+Prealgebra,Primes and Composites Basics,9,0,100
+Prealgebra,Prime Factorization,10,1,90
+Prealgebra,Least Common Multiple,23,2,91.3
+Prealgebra,Divisors,15,1,93.3
+Prealgebra,Greatest Common Divisor,12,0,100
+Prealgebra,Fraction Multiplication,11,0,100
+Prealgebra,Fraction Division,7,0,100
+Prealgebra,Fractions and Exponents,9,0,100
+Prealgebra,Simplifying Fractions,11,0,100
+Prealgebra,Fraction Addition and Subtraction,9,0,100
+Prealgebra,Mixed Numbers,14,1,92.9
+Prealgebra,Expressions,9,0,100
+Prealgebra,Basic Linear Equations,11,0,100
+Prealgebra,Advanced Linear Equations,10,0,100
+Prealgebra,Word Problems,16,1,93.8
+Prealgebra,Inequalities,9,0,100
+Prealgebra,Decimal Arithmetic,9,0,100
+Prealgebra,Rounding Decimals,10,0,100
+Prealgebra,Decimals and Fractions,10,0,100
+Prealgebra,Repeating Decimals,22,3,86.4
+Prealgebra,Ratio Basics,7,0,100
+Prealgebra,Proportions,15,0,100
+Prealgebra,Unit Conversions,13,1,92.3
+Prealgebra,Speed and Other Rates,13,2,84.6
+Prealgebra,Simple Percents,9,0,100
+Prealgebra,Combining Percents,13,1,92.3
+Prealgebra,Integer Square Roots,10,0,100
+Prealgebra,Non-integer Square Roots,15,0,100
+Prealgebra,Angle Basics,20,2,90
+Prealgebra,Parallel Lines and Triangles,17,0,100
+Prealgebra,Angles in a Polygon,12,0,100
+Prealgebra,Length and Perimeter,20,1,95
+Prealgebra,Area,13,0,100
+Prealgebra,Circles,14,0,100
+Prealgebra,The Pythagorean Theorem,18,0,100
+Prealgebra,Special Right Triangles,13,0,100
+Prealgebra,Quadrilaterals,29,2,93.1
+Prealgebra,Basic Statistics,7,0,100
+Prealgebra,Statistics - Reading Tables or Charts,8,0,100
+Prealgebra,Counting Lists,20,2,90
+Prealgebra,Venn Diagrams,14,0,100
+Prealgebra,The Multiplication Principle in Counting,18,0,100
+Prealgebra,Permutations,19,1,94.7
+Prealgebra,Casework Counting,23,3,87
+Prealgebra,Counting Pairs,26,6,76.9
+Prealgebra,Basic Probability,14,1,92.9
+Algebra,Prerequisites - Arithmetic Review,14,0,100
+Algebra,Prerequisites - Exponent Laws,18,1,94.4
+Algebra,Prerequisites - Square Roots,25,0,100
+Algebra,Prerequisites - Fractional Exponents,5,0,100
+Algebra,Evaluating Expressions,9,0,100
+Algebra,Simplifying One-Variable Expressions,15,0,100
+Algebra,One-Variable Distribution,10,1,90
+Algebra,One-Variable Linear Equations,22,0,100
+Algebra,Word Problems in One Variable,18,1,94.4
+Algebra,Linear Equations in Disguise,9,0,100
+Algebra,Solving Two-Variable Systems,19,2,89.5
+Algebra,Two-Variable Word Problems,8,0,100
+Algebra,Advanced Systems of Equations,12,1,91.7
+Algebra,Ratios,14,0,100
+Algebra,Unit Conversions,17,1,94.1
+Algebra,Percents,30,1,96.7
+Algebra,Direct Proportion,22,1,95.5
+Algebra,Inverse Proportion,16,3,81.3
+Algebra,Rate Problems,23,5,78.3
+Algebra,Distance in the Plane,9,0,100
+Algebra,Midpoint of a Segment,12,1,91.7
+Algebra,Graphing Lines,12,2,83.3
+Algebra,Graphing Multiple Lines,12,1,91.7
+Algebra,Solving Linear Inequalities,13,0,100
+Algebra,Multiplying Binomials,14,2,85.7
+Algebra,Factoring Monic Quadratics,6,0,100
+Algebra,Factoring General Quadratics,14,0,100
+Algebra,Sum and Product of Roots,14,2,85.7
+Algebra,Square of a Binomial,7,0,100
+Algebra,Difference-of-Squares,8,0,100
+Algebra,Rationalizing Denominators,8,0,100
+Algebra,Simon's Favorite Factoring Trick,14,2,85.7
+Algebra,Complex Number Arithmetic,16,2,87.5
+Algebra,Quadratic Formula/Discriminant,17,2,88.2
+Algebra,Completing the Square,10,1,90
+Algebra,Quadratic Optimization,17,2,88.2
+Algebra,Advanced Quadratics,9,1,88.9
+Algebra,Graphing Quadratics,30,6,80
+Algebra,Graphing Circles,17,2,88.2
+Algebra,Quadratic Inequalities,17,3,82.4
+Algebra,Evaluating Functions,10,0,100
+Algebra,Domain and Range,20,1,95
+Algebra,Function Composition,11,0,100
+Algebra,Inverse Functions,18,0,100
+Algebra,Functional Operations,10,1,90
+Algebra,Graphing Functions,14,0,100
+Algebra,Polynomial Basics,12,0,100
+Algebra,Polynomial Multiplication,11,0,100
+Algebra,Exponential and Logarithm Basics,9,0,100
+Algebra,Interest Rates,17,4,76.5
+Algebra,Logarithm Basics,13,0,100
+Algebra,Radical Expressions and Functions,12,1,91.7
+Algebra,Absolute Value,23,6,73.9
+Algebra,Floor and Ceiling,15,1,93.3
+Algebra,Rational Expressions of Polynomials,16,1,93.8
+Algebra,Piecewise-Defined Functions,10,1,90
+Algebra,Arithmetic Sequences,8,0,100
+Algebra,Arithmetic Series,17,3,82.4
+Algebra,Geometric Sequences,10,1,90
+Algebra,Geometric Series,24,4,83.3
+Algebra,Clever Algebraic Manipulations,13,2,84.6
+Number Theory,Multiples,22,3,86.4
+Number Theory,Divisors,20,2,90
+Number Theory,Primes and Composites Basics,16,1,93.8
+Number Theory,Remainders,10,0,100
+Number Theory,Prime Factorization,21,1,95.2
+Number Theory,Least Common Multiple,29,5,82.8
+Number Theory,Greatest Common Divisor,20,1,95
+Number Theory,The Euclidean Algorithm,21,2,90.5
+Number Theory,LCM/GCD Problem-Solving,14,2,85.7
+Number Theory,Counting Divisors,13,1,92.3
+Number Theory,Divisor Arithmetic,19,3,84.2
+Number Theory,Converting from Base 10,18,2,88.9
+Number Theory,Converting to Base 10,15,0,100
+Number Theory,Base Number Problem-Solving,10,2,80
+Number Theory,Base Number Arithmetic,12,0,100
+Number Theory,The Last Digit (Base 10),12,2,83.3
+Number Theory,Terminating Decimals,16,1,93.8
+Number Theory,Repeating Decimals,28,3,89.3
+Number Theory,Congruence and Residues,16,4,75
+Number Theory,Modular Arithmetic Sums,11,0,100
+Number Theory,Modular Arithmetic,9,0,100
+Number Theory,Patterns in Modular Arithmetic,8,0,100
+Number Theory,Divisibility Rules,26,1,96.2
+Number Theory,Divisibility Problem-Solving,17,4,76.5
+Number Theory,Modular Arithmetic Inverses,12,2,83.3
+Number Theory,Modular Arithmetic Congruences,16,2,87.5
+Number Theory,Modular Arithmetic Systems,11,2,81.8
+Number Theory,Perfect Powers,11,3,72.7
+Number Theory,Digits,6,0,100
+Counting & Probability,Counting Numbers in Lists,28,2,92.9
+Counting & Probability,Venn Diagrams,23,0,100
+Counting & Probability,Counting Independent Events,34,4,88.2
+Counting & Probability,Factorials,22,3,86.4
+Counting & Probability,Permutations,22,1,95.5
+Counting & Probability,Casework Counting,45,10,77.8
+Counting & Probability,Complementary Counting,22,4,81.8
+Counting & Probability,Constructive Counting,17,0,100
+Counting & Probability,Counting with Restrictions,45,15,66.7
+Counting & Probability,Counting with Symmetry,69,23,66.7
+Counting & Probability,Correcting for Overcounting with Division,39,8,79.5
+Counting & Probability,Basic Combinations,20,2,90
+Counting & Probability,Computing Combinations,15,0,100
+Counting & Probability,Combinations with Restrictions,23,9,60.9
+Counting & Probability,Distinguishability,38,11,71.1
+Counting & Probability,Basic Probability as Counting,22,2,90.9
+Counting & Probability,Basic Probability with Combinations,29,8,72.4
+Counting & Probability,Probability with Casework,54,20,63
+Counting & Probability,Complementary Probability,19,3,84.2
+Counting & Probability,Binomial Probability,20,6,70
+Counting & Probability,Multiplying Probabilities,16,1,93.8
+Counting & Probability,Advanced Probability with Combinations,31,8,71
+Counting & Probability,Probability - Think About It!,16,1,93.8
+Counting & Probability,Using Geometry in Probability,9,0,100
+Counting & Probability,Expected Value,19,3,84.2
+Counting & Probability,Pascal's Triangle,14,1,92.9
+Counting & Probability,Binomial Theorem,20,4,80
+Geometry,Angle Measurement Basics,21,2,90.5
+Geometry,"Angles, Parallel Lines, and Triangles",18,0,100
+Geometry,Isosceles and Equilateral Triangles,17,1,94.1
+Geometry,Length and Perimeter,24,1,95.8
+Geometry,Area Basics,19,0,100
+Geometry,Similar Triangles,19,1,94.7
+Geometry,The Pythagorean Theorem,29,1,96.6
+Geometry,Special Right Triangles,24,0,100
+Geometry,Bisectors in a Triangle,45,7,82.2
+Geometry,Triangle Medians and Altitudes,23,1,95.7
+Geometry,Quadrilaterals Level 1,29,2,93.1
+Geometry,Quadrilaterals Level 2,20,1,95
+Geometry,Polygon Angles,20,1,95
+Geometry,Polygon Length and Area,12,1,91.7
+Geometry,Inequalities in Triangles,11,1,90.9
+Geometry,Circle Area and Circumference,20,1,95
+Geometry,Funky Circle Areas,16,3,81.3
+Geometry,Angles in Circles,15,2,86.7
+Geometry,Lengths in Circles,14,1,92.9
+Geometry,Prisms,7,0,100
+Geometry,Pyramids,10,0,100
+Geometry,Cylinders,9,0,100
+Geometry,Cones,10,1,90
+Geometry,Spheres,7,0,100
+Geometry,Transformations,9,1,88.9
+Geometry,Analytic Geometry Level 1,7,0,100
+Geometry,Analytic Geometry Level 2,6,0,100
+Geometry,Right-Triangle Trigonometry,8,1,87.5
+Geometry,Unit Circle Trigonometry,8,0,100
