@@ -4,7 +4,7 @@
     <x:Property Name="In_Class" Type="InArgument(x:String)" />
     <x:Property Name="In_Window" Type="InArgument(ui:UiElement)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1047,3381</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1047,827</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="68">
@@ -115,25 +115,25 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="560,3276" sap2010:WorkflowViewState.IdRef="Sequence_7">
+  <Sequence sap:VirtualizedContainerService.HintSize="560,712" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Report - Art of Problem Solving" sap:VirtualizedContainerService.HintSize="498,3154" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Report - Art of Problem Solving" sap:VirtualizedContainerService.HintSize="498,590" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentTopic'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="464,2928" sap2010:WorkflowViewState.IdRef="NForEachUiElement_5" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" Version="V3">
+          <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentTopic'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="464,364" sap2010:WorkflowViewState.IdRef="NForEachUiElement_6" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" Version="V3">
             <uix:NForEachUiElement.Body>
               <ActivityAction x:TypeArguments="x:Int32">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,2654" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="Text" />
                     <Variable x:TypeArguments="x:String" Name="Num_Prob" />
@@ -145,12 +145,12 @@
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="338,146" sap2010:WorkflowViewState.IdRef="NClick_5" InUiElement="[CurrentTopic]" KeyModifiers="None" MouseButton="Left" Version="V3" />
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_20">
+                  <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="436,146" sap2010:WorkflowViewState.IdRef="NClick_5" InUiElement="[CurrentTopic]" KeyModifiers="None" MouseButton="Left" Version="V3" />
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_20">
                     <Assign.To>
                       <OutArgument x:TypeArguments="sd:DataRow">[DTRow]</OutArgument>
                     </Assign.To>
@@ -158,7 +158,7 @@
                       <InArgument x:TypeArguments="sd:DataRow">[TheDT.NewRow]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_21">
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_21">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Object">[DTRow("Class")]</OutArgument>
                     </Assign.To>
@@ -166,7 +166,7 @@
                       <InArgument x:TypeArguments="x:Object">[In_Class]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_22">
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_22">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[Title]</OutArgument>
                     </Assign.To>
@@ -174,7 +174,7 @@
                       <InArgument x:TypeArguments="x:String">[CurrentTopic_Label]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_23">
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_23">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Object">[DTRow("Chapter")]</OutArgument>
                     </Assign.To>
@@ -182,13 +182,13 @@
                       <InArgument x:TypeArguments="x:Object">[Title]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <uix:NGetText DisplayName="Get Text 'Problems: 12'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" TextString="[Num_Prob]" Version="V3">
+                  <uix:NGetText DisplayName="Get Text 'Problems: 12'" sap:VirtualizedContainerService.HintSize="436,166" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" TextString="[Num_Prob]" Version="V3">
                     <uix:NGetText.Target>
                       <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/193/346" DesignTimeRectangle="1055, 337, 96, 23" DesignTimeScaleFactor="1" FriendlyName="'Problems: 12'" FullSelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Problems: *' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Problems: *' type='' /&gt;" Guid="52446c4e-a53a-405f-8dfd-4fe1040a11d6" ImageBase64="" InformativeScreenshot="54e907e074e65b64a1487d02d2a0172e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='* - Art of Problem Solving' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
                     </uix:NGetText.Target>
                   </uix:NGetText>
-                  <ui:Matches BuilderPattern="Problems:\n\t+(\d+)" sap:VirtualizedContainerService.HintSize="338,69" sap2010:WorkflowViewState.IdRef="Matches_7" Input="[Num_Prob]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;Problems:\\n\\t+(\\d+)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="Problems:\n\t+(\d+)" RegexOption="IgnoreCase, Compiled" Result="[res]" />
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_24">
+                  <ui:Matches BuilderPattern="Problems:\n\t+(\d+)" sap:VirtualizedContainerService.HintSize="436,69" sap2010:WorkflowViewState.IdRef="Matches_7" Input="[Num_Prob]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;Problems:\\n\\t+(\\d+)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="Problems:\n\t+(\d+)" RegexOption="IgnoreCase, Compiled" Result="[res]" />
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_24">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[Num_Prob]</OutArgument>
                     </Assign.To>
@@ -196,7 +196,7 @@
                       <InArgument x:TypeArguments="x:String">[res(0).groups(1).value]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_25">
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_25">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Object">[DTRow("Problems")]</OutArgument>
                     </Assign.To>
@@ -204,13 +204,13 @@
                       <InArgument x:TypeArguments="x:Object">[Num_Prob]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <uix:NGetText DisplayName="Get Text 'Incorrect: 0'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" TextString="[Num_Incorrect]" Version="V3">
+                  <uix:NGetText DisplayName="Get Text 'Incorrect: 0'" sap:VirtualizedContainerService.HintSize="436,166" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" TextString="[Num_Incorrect]" Version="V3">
                     <uix:NGetText.Target>
                       <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/193/349" DesignTimeRectangle="1267, 337, 83, 23" DesignTimeScaleFactor="1" FriendlyName="'Incorrect: 0'" FullSelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right alc--wide' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Incorrect: *' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right alc--wide' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Incorrect: *' type='' /&gt;" Guid="e77d6407-099a-47ec-b628-7d24969619d8" ImageBase64="" InformativeScreenshot="057817c4d40a0d94fa7ed8bab7e32f3f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='* - Art of Problem Solving' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
                     </uix:NGetText.Target>
                   </uix:NGetText>
-                  <ui:Matches BuilderPattern="Problems:\n\t+(\d+)" sap:VirtualizedContainerService.HintSize="338,69" sap2010:WorkflowViewState.IdRef="Matches_8" Input="[Num_Incorrect]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;Problems:\\n\\t+(\\d+)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="Incorrect:\n\t+(\d+)" RegexOption="IgnoreCase, Compiled" Result="[res]" />
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_26">
+                  <ui:Matches BuilderPattern="Problems:\n\t+(\d+)" sap:VirtualizedContainerService.HintSize="436,69" sap2010:WorkflowViewState.IdRef="Matches_8" Input="[Num_Incorrect]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;Problems:\\n\\t+(\\d+)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="Incorrect:\n\t+(\d+)" RegexOption="IgnoreCase, Compiled" Result="[res]" />
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_26">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[Num_Incorrect]</OutArgument>
                     </Assign.To>
@@ -218,7 +218,7 @@
                       <InArgument x:TypeArguments="x:String">[res(0).groups(1).value]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_27">
+                  <Assign sap:VirtualizedContainerService.HintSize="436,71" sap2010:WorkflowViewState.IdRef="Assign_27">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Object">[DTRow("Incorrect")]</OutArgument>
                     </Assign.To>
@@ -226,30 +226,41 @@
                       <InArgument x:TypeArguments="x:Object">[Num_Incorrect]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <uix:NGetText DisplayName="Get Text 'Percent: 100'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NGetText_10" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" TextString="[Num_percent]" Version="V3">
-                    <uix:NGetText.Target>
-                      <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/193/349" DesignTimeRectangle="1463, 337, 92, 23" DesignTimeScaleFactor="1" FriendlyName="'Percent: 100'" FullSelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Percent: *' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Percent: *' type='' /&gt;" Guid="f9bea9a7-1f11-4ca0-aa36-55c04806d9b7" ImageBase64="" InformativeScreenshot="182c2b0ee4490c81b9671a521fff719b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='* - Art of Problem Solving' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
-                    </uix:NGetText.Target>
-                  </uix:NGetText>
-                  <ui:Matches BuilderPattern="Percent:\n\t+(\d+\.?\d?)" sap:VirtualizedContainerService.HintSize="338,69" sap2010:WorkflowViewState.IdRef="Matches_9" Input="[Num_percent]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;Percent:\\n\\t+(\\d+\\.?\\d?)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="Percent:\n\t+(\d+\.?\d?|N\/A)" RegexOption="IgnoreCase, Compiled" Result="[res]" />
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_28">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="x:String">[Num_percent]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="x:String">[res(0).groups(1).value]</InArgument>
-                    </Assign.Value>
-                  </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="338,71" sap2010:WorkflowViewState.IdRef="Assign_29">
-                    <Assign.To>
-                      <OutArgument x:TypeArguments="x:Object">[DTRow("Percent")]</OutArgument>
-                    </Assign.To>
-                    <Assign.Value>
-                      <InArgument x:TypeArguments="x:Object">[Num_percent]</InArgument>
-                    </Assign.Value>
-                  </Assign>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,101" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[Title+&quot;: &quot;+Num_Prob+&quot; &quot;+ Num_Incorrect+&quot; &quot;+Num_percent]" />
-                  <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="338,149" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="Add">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,705" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,617" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetText DisplayName="Get Text 'Percent: 100'" sap:VirtualizedContainerService.HintSize="338,166" sap2010:WorkflowViewState.IdRef="NGetText_10" ScopeIdentifier="2f879962-5f0a-4e7b-82d8-7a00dfb6d652" TextString="[Num_percent]" Version="V3">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me/subject/193/349" DesignTimeRectangle="1463, 337, 92, 23" DesignTimeScaleFactor="1" FriendlyName="'Percent: 100'" FullSelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Percent: *' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='alc-page' tag='DIV' class='alc-value alc-right' parentclass='aops-panel alc-left alc-report-stats-container' visibleinnertext='Percent: *' type='' /&gt;" Guid="f9bea9a7-1f11-4ca0-aa36-55c04806d9b7" ImageBase64="" InformativeScreenshot="182c2b0ee4490c81b9671a521fff719b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='* - Art of Problem Solving' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                          </uix:NGetText.Target>
+                        </uix:NGetText>
+                        <ui:Matches BuilderPattern="Percent:\n\t+(\d+\.?\d?)" sap:VirtualizedContainerService.HintSize="338,69" sap2010:WorkflowViewState.IdRef="Matches_9" Input="[Num_percent]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;Percent:\\n\\t+(\\d+\\.?\\d?)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="Percent:\n\t+(\d+\.?\d?|N\/A)" RegexOption="IgnoreCase, Compiled" Result="[res]" />
+                        <Assign sap:VirtualizedContainerService.HintSize="338,70" sap2010:WorkflowViewState.IdRef="Assign_28">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[Num_percent]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[res(0).groups(1).value]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <Assign sap:VirtualizedContainerService.HintSize="338,70" sap2010:WorkflowViewState.IdRef="Assign_29">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Object">[DTRow("Percent")]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Object">[Num_percent]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                  </ui:CommentOut>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,101" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[Title+&quot;: &quot;+Num_Prob+&quot; &quot;+ Num_Incorrect+&quot; &quot;+Num_percent]" />
+                  <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="436,149" sap2010:WorkflowViewState.IdRef="InvokeMethod_3" MethodName="Add">
                     <InvokeMethod.TargetObject>
                       <InArgument x:TypeArguments="sd:DataRowCollection">[TheDT.Rows]</InArgument>
                     </InvokeMethod.TargetObject>

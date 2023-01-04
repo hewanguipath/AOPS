@@ -111,7 +111,7 @@
       <AssemblyReference>UiPath.Excel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="718,1621" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="718,1661" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="TheDT" />
       <Variable x:TypeArguments="ui:UiElement" Name="currentWindowElement" />
@@ -122,19 +122,19 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:BuildDataTable DataTable="[TheDT]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="656,69" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Class&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Chapter&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Problems&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Incorrect&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Percent&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Report - Art of Problem Solving" sap:VirtualizedContainerService.HintSize="656,1390" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OutUiElement="[currentWindowElement]" ScopeGuid="def43323-bcc5-44d3-8230-249c3ada4cf2" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Report - Art of Problem Solving" sap:VirtualizedContainerService.HintSize="656,1430" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OutUiElement="[currentWindowElement]" ScopeGuid="def43323-bcc5-44d3-8230-249c3ada4cf2" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="622,1164" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="622,1204" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="560,1040" sap2010:WorkflowViewState.IdRef="NForEachUiElement_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="def43323-bcc5-44d3-8230-249c3ada4cf2" Version="V3">
+            <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="560,1080" sap2010:WorkflowViewState.IdRef="NForEachUiElement_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="def43323-bcc5-44d3-8230-249c3ada4cf2" Version="V3">
               <uix:NForEachUiElement.Body>
                 <ActivityAction x:TypeArguments="x:Int32">
                   <ActivityAction.Argument>
@@ -149,18 +149,12 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="434,146" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="[currentWindowElement]" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="def43323-bcc5-44d3-8230-249c3ada4cf2" Version="V3" />
+                    <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="434,146" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="def43323-bcc5-44d3-8230-249c3ada4cf2" Version="V3" />
                     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ForEachTopic.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ForEachTopic.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
-                        <InArgument x:TypeArguments="sd:DataTable" x:Key="TheDT">
-                          <VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="TheDT" />
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="In_Class">
-                          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentElement_Label" />
-                        </InArgument>
-                        <InArgument x:TypeArguments="ui:UiElement" x:Key="In_Window">
-                          <VisualBasicValue x:TypeArguments="ui:UiElement" ExpressionText="currentWindowElement" />
-                        </InArgument>
+                        <InArgument x:TypeArguments="sd:DataTable" x:Key="TheDT">[TheDT]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="In_Class">[CurrentElement_Label]</InArgument>
+                        <InArgument x:TypeArguments="ui:UiElement" x:Key="In_Window">[currentWindowElement]</InArgument>
                       </ui:InvokeWorkflowFile.Arguments>
                     </ui:InvokeWorkflowFile>
                     <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://artofproblemsolving.com/alcumus/report/me" Version="V3" />
@@ -169,7 +163,7 @@
                 </ActivityAction>
               </uix:NForEachUiElement.Body>
               <uix:NForEachUiElement.Target>
-                <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me" DesignTimeRectangle="608, 512, 452, 607" DesignTimeScaleFactor="1" FriendlyName="'Prealgebra Level'" FullSelectorArgument="&lt;webctrl class='alc--table-main' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="b9f437f0-cc02-4f2b-b63b-74a6cea70636" InformativeScreenshot="d806e017088361b5f62fbea359f3caf6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Report - Art of Problem Solving' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
+                <uix:TargetAnchorable BrowserURL="https://artofproblemsolving.com/alcumus/report/me" ContentHash="3ew5fdByvUCISmHPuYr96w" DesignTimeRectangle="608, 512, 452, 607" DesignTimeScaleFactor="1" FriendlyName="'For Each UI Element'" FullSelectorArgument="&lt;webctrl class='alc--table-main' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="b9f437f0-cc02-4f2b-b63b-74a6cea70636" InformativeScreenshot="d806e017088361b5f62fbea359f3caf6.png" Reference="WDsur7InJ0SJLtVXxHaK4A/UTw9YDlkG0aPYIjMqCHR6g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Report - Art of Problem Solving' /&gt;" SearchSteps="Selector" Version="V1" Visibility="Interactive" />
               </uix:NForEachUiElement.Target>
               <uix:NForEachUiElement.Variables>
                 <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
